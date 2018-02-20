@@ -1,0 +1,27 @@
+.cookie__info{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 450px;
+    background-color: #fff;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 0 5px rgba(134, 195, 74, 0.5);
+    padding: 10px 20px;
+}
+.cookie__info p{
+    padding: 0 5px;
+}
+
+#cookie__accBtn{
+    left: 100%;
+    background-color: #fff;
+    border: 1px solid #d6d6d6;
+    padding: 5px;
+    margin-left: 100%;
+    transform: translateX(-100%);
+    transition: .2s linear;
+}
+#cookie__accBtn:hover{
+    background-color: #8bc34a;
+}
